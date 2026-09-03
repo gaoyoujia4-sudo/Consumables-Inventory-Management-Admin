@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#1d4ed8"/>
+  <path d="M0 380 C 300 260, 700 420, 1200 280 L 1200 500 L 0 500 Z" fill="#60a5fa" opacity=".4"/>
+  <text x="80" y="150" font-size="52" fill="#eff6ff" font-family="sans-serif">车内药品物品摆放</text>
+  <text x="84" y="210" font-size="26" fill="#dbeafe" font-family="sans-serif">开封前与开封后均需拍摄车内照片</text>
+</svg>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>开封查对管理系统</title>
+  <link rel="stylesheet" href="/admin/admin.css?v=4">
+</head>
+<body>
+  <div id="login" class="login-view hidden">
+    <div class="login-panel">
+      <div class="login-brand">
+        <div class="brand-mark"><i data-lucide="shield-check"></i></div>
+        <div>
+          <h1>开封查对管理系统</h1>
+          <p>小程序管理后台</p>
+        </div>
+      </div>
+      <form id="login-form" class="login-form">
+        <label>
+          <span>账号</span>
+          <input name="username" autocomplete="username" placeholder="请输入账号" required>
+        </label>
+        <label>
+          <span>密码</span>
+          <input name="password" type="password" autocomplete="current-password" placeholder="请输入密码" required>
+        </label>
+        <button type="submit" class="btn primary block">登录</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="app" class="app hidden">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark"><i data-lucide="shield-check"></i></div>
+        <div class="brand-text">
+          <strong id="brand-name">开封查对管理系统</strong>
+          <span>小程序管理后台</span>
+        </div>
+      </div>
+      <nav class="nav" id="nav">
+        <button class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i><span>仪表盘</span></button>
+        <button class="nav-item" data-view="records" data-perm="records:view"><i data-lucide="clipboard-list"></i><span>查对记录</span></button>
+        <button class="nav-item" data-view="users" data-perm="users:manage"><i data-lucide="users"></i><span>用户管理</span></button>
+        <button class="nav-item" data-view="personnel" data-perm="personnel:manage"><i data-lucide="id-card"></i><span>人员管理</span></button>
+        <button class="nav-item" data-view="medicines" data-perm="medicines:manage"><i data-lucide="pill"></i><span>药品管理</span></button>
+        <button class="nav-item" data-view="products" data-perm="products:manage"><i data-lucide="package"></i><span>物品管理</span></button>
+        <button class="nav-item" data-view="orders" data-perm="orders:manage"><i data-lucide="receipt"></i><span>订单管理</span></button>
+        <button class="nav-item" data-view="banners" data-perm="banners:manage"><i data-lucide="image"></i><span>轮播图</span></button>
+        <button class="nav-item" data-view="settings" data-perm="settings:manage"><i data-lucide="settings"></i><span>系统设置</span></button>
+        <button class="nav-item" data-view="admins" data-perm="admins:manage"><i data-lucide="shield"></i><span>权限管理</span></button>
+      </nav>
+      <div class="sidebar-foot">
+        <span id="sidebar-admin">管理员</span>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <div class="topbar-title">
+          <h1 id="view-title">仪表盘</h1>
+          <p id="view-subtitle">运营数据总览</p>
+        </div>
+        <div class="topbar-actions">
+          <button id="refresh-btn" class="icon-btn" title="刷新数据"><i data-lucide="refresh-cw"></i></button>
+          <div class="user-chip">
+            <span class="avatar" id="admin-avatar">管</span>
+            <span id="admin-name">管理员</span>
+          </div>
+          <button id="logout-btn" class="btn ghost"><i data-lucide="log-out"></i><span>退出</span></button>
+        </div>
+      </header>
+      <main class="content" id="content"></main>
+    </div>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="lightbox" class="lightbox hidden">
+    <button id="lightbox-close" class="lightbox-close icon-btn" title="关闭"><i data-lucide="x"></i></button>
+    <img id="lightbox-img" alt="照片预览">
+  </div>
+  <div id="toast-root"></div>
+
+  <script src="/vendor/lucide.min.js"></script>
+  <script src="/admin/admin.js?v=4"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#7c3aed"/>
+  <circle cx="1020" cy="120" r="180" fill="#a78bfa" opacity=".35"/>
+  <text x="80" y="150" font-size="52" fill="#f5f3ff" font-family="sans-serif">一次性密码锁使用说明</text>
+  <text x="84" y="210" font-size="26" fill="#ede9fe" font-family="sans-serif">开封后锁具作废，锁号必须拍照上传</text>
+</svg>

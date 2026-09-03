@@ -1,0 +1,7 @@
+data/*.db
+data/*.db-*
+uploads/
+artifacts/
+*.log
+.env
+node_modules/

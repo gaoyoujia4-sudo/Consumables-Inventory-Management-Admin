@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#334155"/>
+  <rect x="70" y="120" width="180" height="130" rx="8" fill="#94a3b8"/>
+  <rect x="90" y="150" width="60" height="70" rx="6" fill="#e2e8f0"/>
+  <rect x="160" y="150" width="70" height="70" rx="6" fill="#cbd5e1"/>
+  <rect x="280" y="120" width="180" height="130" rx="8" fill="#0f766e"/>
+  <rect x="300" y="150" width="60" height="70" rx="6" fill="#99f6e4"/>
+  <rect x="370" y="150" width="70" height="70" rx="6" fill="#5eead4"/>
+  <rect x="490" y="120" width="90" height="130" rx="8" fill="#7c3aed"/>
+  <rect x="508" y="150" width="54" height="70" rx="6" fill="#ddd6fe"/>
+  <text x="48" y="80" font-size="30" fill="#f8fafc" font-family="sans-serif">车内摆放 01</text>
+</svg>

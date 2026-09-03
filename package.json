@@ -1,0 +1,13 @@
+{
+  "name": "mini-program-admin",
+  "version": "1.0.0",
+  "description": "小程序后台：REST API + 管理控制台，零第三方依赖",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}

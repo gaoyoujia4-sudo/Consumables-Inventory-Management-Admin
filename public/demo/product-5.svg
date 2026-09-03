@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#334155"/>
+  <circle cx="500" cy="110" r="120" fill="#64748b" opacity=".4"/>
+  <rect x="280" y="140" width="90" height="130" rx="16" fill="#f8fafc"/>
+  <circle cx="325" cy="205" r="34" fill="#facc15"/>
+  <rect x="306" y="185" width="38" height="10" rx="5" fill="#eab308"/>
+  <text x="48" y="80" font-size="30" fill="#f8fafc" font-family="sans-serif">车载应急灯</text>
+</svg>

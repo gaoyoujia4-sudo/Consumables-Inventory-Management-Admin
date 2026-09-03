@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#b45309"/>
+  <rect x="250" y="140" width="140" height="120" rx="16" fill="#fffbeb"/>
+  <path d="M282 150 A38 38 0 0 1 358 150 L358 180 L282 180 Z" fill="#fbbf24"/>
+  <circle cx="320" cy="205" r="14" fill="#b45309"/>
+  <text x="250" y="300" font-size="42" fill="#fffbeb" font-family="monospace">SL-66007</text>
+  <text x="48" y="80" font-size="30" fill="#fffbeb" font-family="sans-serif">密码锁 03</text>
+</svg>

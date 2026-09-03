@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#be123c"/>
+  <circle cx="130" cy="330" r="150" fill="#fb7185" opacity=".3"/>
+  <rect x="260" y="140" width="120" height="130" rx="4" fill="#fff1f2"/>
+  <polygon points="280,260 360,260 370,160 270,160" fill="#fecdd3"/>
+  <text x="48" y="80" font-size="30" fill="#fff1f2" font-family="sans-serif">急救毯</text>
+</svg>

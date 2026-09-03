@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#1d4ed8"/>
+  <circle cx="540" cy="320" r="140" fill="#60a5fa" opacity=".3"/>
+  <rect x="240" y="120" width="170" height="160" rx="16" fill="#eff6ff"/>
+  <rect x="260" y="140" width="130" height="120" rx="8" fill="#dbeafe"/>
+  <rect x="278" y="162" width="94" height="16" rx="8" fill="#93c5fd"/>
+  <text x="48" y="80" font-size="30" fill="#eff6ff" font-family="sans-serif">车载保温箱</text>
+</svg>

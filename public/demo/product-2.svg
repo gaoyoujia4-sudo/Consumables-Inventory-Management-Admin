@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#b45309"/>
+  <circle cx="120" cy="90" r="130" fill="#f59e0b" opacity=".35"/>
+  <rect x="240" y="130" width="160" height="150" rx="10" fill="#fffbeb"/>
+  <line x1="250" y1="160" x2="390" y2="160" stroke="#fcd34d" stroke-width="10"/>
+  <line x1="250" y1="190" x2="360" y2="190" stroke="#fbbf24" stroke-width="10"/>
+  <line x1="250" y1="220" x2="330" y2="220" stroke="#f59e0b" stroke-width="10"/>
+  <text x="48" y="80" font-size="30" fill="#fffbeb" font-family="sans-serif">医药周转箱</text>
+</svg>

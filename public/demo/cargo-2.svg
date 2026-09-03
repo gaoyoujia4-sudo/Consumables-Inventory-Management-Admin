@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#1e293b"/>
+  <rect x="80" y="130" width="200" height="140" rx="10" fill="#475569"/>
+  <rect x="100" y="160" width="70" height="80" rx="6" fill="#94a3b8"/>
+  <rect x="180" y="160" width="80" height="80" rx="6" fill="#cbd5e1"/>
+  <rect x="310" y="130" width="240" height="140" rx="10" fill="#b45309"/>
+  <rect x="330" y="160" width="80" height="80" rx="6" fill="#fcd34d"/>
+  <rect x="420" y="160" width="110" height="80" rx="6" fill="#fbbf24"/>
+  <text x="48" y="80" font-size="30" fill="#f8fafc" font-family="sans-serif">车内摆放 02</text>
+</svg>

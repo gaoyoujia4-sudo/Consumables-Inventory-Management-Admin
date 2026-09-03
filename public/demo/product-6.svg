@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#7c3aed"/>
+  <circle cx="130" cy="120" r="130" fill="#a78bfa" opacity=".35"/>
+  <rect x="262" y="110" width="116" height="180" rx="18" fill="#f5f3ff"/>
+  <rect x="280" y="140" width="80" height="26" rx="6" fill="#c4b5fd"/>
+  <rect x="280" y="180" width="80" height="26" rx="6" fill="#ddd6fe"/>
+  <circle cx="320" cy="245" r="18" fill="#8b5cf6"/>
+  <text x="48" y="80" font-size="30" fill="#f5f3ff" font-family="sans-serif">一次性密码锁</text>
+</svg>

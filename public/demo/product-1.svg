@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#0f766e"/>
+  <circle cx="520" cy="80" r="120" fill="#14b8a6" opacity=".35"/>
+  <rect x="250" y="120" width="140" height="170" rx="14" fill="#f0fdfa"/>
+  <rect x="270" y="150" width="100" height="18" rx="9" fill="#99f6e4"/>
+  <rect x="270" y="182" width="70" height="12" rx="6" fill="#5eead4"/>
+  <rect x="270" y="208" width="88" height="12" rx="6" fill="#5eead4"/>
+  <text x="48" y="80" font-size="30" fill="#ecfdf5" font-family="sans-serif">便携急救包</text>
+</svg>

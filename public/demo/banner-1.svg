@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#0f766e"/>
+  <path d="M0 340 C 280 220, 520 420, 860 260 S 1200 330, 1200 330 L 1200 500 L 0 500 Z" fill="#14b8a6" opacity=".45"/>
+  <text x="80" y="150" font-size="52" fill="#f0fdfa" font-family="sans-serif">药品开封查对流程</text>
+  <text x="84" y="210" font-size="26" fill="#ccfbf1" font-family="sans-serif">两人查对 · 摆放拍照 · 锁号留档</text>
+</svg>
