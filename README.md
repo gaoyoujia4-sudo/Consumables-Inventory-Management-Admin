@@ -15,7 +15,7 @@
 
 ## 环境要求
 
-- Node.js 22.5 及以上（使用内置 `node:sqlite`）
+- Node.js 22.13 及以上（使用内置 `node:sqlite`，无需额外 flag；仓库内含 `.nvmrc` 固定为 Node 24）
 
 ## 启动
 
@@ -41,6 +41,21 @@ Windows 下也可以双击 `start.bat`。默认地址：
 ```bash
 PORT=3000 HOST=0.0.0.0 DB_FILE=./data/app.db node server.js
 ```
+
+## 部署到 Railway
+
+零依赖、单进程，Railway 会用 Nixpacks 自动识别 Node 项目并执行 `npm start`。SQLite 和上传照片需要一块持久卷保存。
+
+1. **推送到 GitHub**，然后在 [railway.com](https://railway.com) → **New Project → Deploy from GitHub** 选择本仓库，Railway 自动构建并部署。
+2. **挂载持久卷（Volume）**：项目 → 服务 → **Volumes** → 添加卷，挂载路径设为 `/data`。
+3. **配置环境变量**（服务 → Variables）：
+   - `DB_FILE=/data/app.db`
+   - `UPLOAD_DIR=/data/uploads`
+   - 可选：`WX_APPID`、`WX_SECRET`（微信登录用，也可部署后在“系统设置”里填）
+4. **（可选）健康检查**：服务 → Settings → Healthcheck，路径设为 `/`（返回 200）。
+5. 部署完成后，管理后台地址为 `https://<你的项目>.up.railway.app/admin`，默认账号 `admin` / `admin123`。
+
+> 说明：Node 版本由 `.nvmrc` 固定为 24（`node:sqlite` 需要 Node 22.13+）。挂载卷后 Railway 会强制单副本（`numReplicas=1`），属正常现象。
 
 ## 微信登录配置
 
@@ -142,6 +157,8 @@ DELETE /admins/:id          删除管理员
 
 ```text
 server.js                HTTP 服务与静态资源
+package.json             依赖与启动脚本
+.nvmrc                   固定 Node 版本（24）
 src/config.js            配置
 src/db.js                SQLite 建表、种子数据
 src/auth.js              密码哈希与令牌

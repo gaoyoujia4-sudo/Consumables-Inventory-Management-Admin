@@ -92,7 +92,7 @@ export async function saveUploadedFile(file, subdir = '') {
   if (ext === '.bin') throw new HttpError(415, '仅支持 JPG/PNG/WebP/GIF 照片');
 
   const now = new Date();
-  const folder = path.join(config.root, 'uploads', subdir, now.toISOString().slice(0, 10).replaceAll('-', '/'));
+  const folder = path.join(config.uploadDir, subdir, now.toISOString().slice(0, 10).replaceAll('-', '/'));
   fs.mkdirSync(folder, { recursive: true });
   const name = `${Date.now()}-${crypto.randomBytes(6).toString('hex')}${ext}`;
   const filePath = path.join(folder, name);

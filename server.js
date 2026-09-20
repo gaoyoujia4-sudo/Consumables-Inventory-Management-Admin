@@ -32,7 +32,7 @@ const MIME = {
 
 function serveStatic(req, res, pathname) {
   const publicRoot = path.resolve(config.root, 'public');
-  const uploadsRoot = path.resolve(config.root, 'uploads');
+  const uploadsRoot = path.resolve(config.uploadDir);
   let rel = '';
   let root = publicRoot;
 
